@@ -130,7 +130,7 @@
                                                 @csrf
                                                 @method('DELETE')
                                                 <div class="container">
-                                                    <span style="color:red; font-weight: bold; font-size: 18px;">Are you sure you want to delete this provider?</span>
+                                                    <span style="color:red; font-size: 18px;">Are you sure you want to delete this provider?</span>
                                                 </div>
                                         </div>
                                         <div class="modal-footer">
