@@ -35,7 +35,7 @@
     <div class="container text-center mb-5 mt-0">
         <div class="row">
             <div class="col-md-12">
-                <h1>Morales Ricky's Technical Exam</h1>
+                <h1>Morales, Ricky's Technical Exam</h1>
             </div>
         </div>
     </div>
