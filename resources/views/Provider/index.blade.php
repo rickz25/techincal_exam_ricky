@@ -1,6 +1,6 @@
 @include('provider.header')
 <div class="container">
-    <!-- Modal Create-->
+    <!-- Modal Create -->
     <div class="modal fade" id="add_provider" tabindex="-1" aria-labelledby="add_providerLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -35,7 +35,7 @@
     <div class="container text-center mb-5 mt-0">
         <div class="row">
             <div class="col-md-12">
-                <h1>Ricky Morales' Technical Exam</h1>
+                <h1>Morales Ricky's Technical Exam</h1>
             </div>
         </div>
     </div>
@@ -46,6 +46,7 @@
         <div class="box d-flex justify-content-center image"></div>
     </div>   
 
+    <!-- Loading -->
     <div class="d-flex justify-content-center">
         <div id="loading" class="" style="display:none;">
             <div class="lds-facebook">
@@ -144,7 +145,10 @@
                             </div>
 
                         </tr>
+
+                        <!-- include ajax call script -->
                         @include('provider.script')
+
                     @endforeach
                 @else
                     <td colspan="3" style="text-align:center;">No data</td>
