@@ -6,7 +6,7 @@
             $.ajax({
                 headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
                 type: 'POST',
-                url: "{{ url('ajax-call') }}",
+                url: "{{ url('api/ajax-call') }}",
                 data: {id:id},
                 dataType: 'json',
                 success: (data) => {
@@ -26,8 +26,8 @@
                     $('#loading').hide();
                 },
                 error: (data) => {
-                    console.log(data);
-                    alert('Server error.')
+                    // console.log(data);
+                    alert('Something went wrong to fetch image.');
                 }
             });
         });

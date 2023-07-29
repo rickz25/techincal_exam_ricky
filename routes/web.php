@@ -19,6 +19,5 @@ Route::get('/', [ProviderController::class, 'index'])->name('index');
 Route::post('store-provider', [ProviderController::class, 'store'])->name('store.provider');
 Route::post('update-provider/{id}', [ProviderController::class, 'update'])->name('update.provider');
 Route::delete('destroy-provider/{id}', [ProviderController::class, 'destroy'])->name('destroy.provider');
-Route::post('ajax-call', [ProviderController::class, 'getImageURL']);
 
 // Route::resource('provider', ProviderController::class);
